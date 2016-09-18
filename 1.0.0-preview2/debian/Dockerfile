@@ -40,3 +40,9 @@ RUN mkdir warmup \
     && cd .. \  
     && rm -rf warmup \
     && rm -rf /tmp/NuGetScratch
+    
+# Package to get specific deployement for a plateforme (see https://docs.microsoft.com/fr-fr/dotnet/articles/core/rid-catalog)
+apt-get update
+apt-get install npm #TODO assume yes
+apt-get install node #TODO assume yes
+npm install -g bower
