@@ -1,4 +1,4 @@
-#ssh norman@containers03agents.southcentralus.cloudapp.azure.com
+#ssh norman@containers03.cloudapp.net
 cd /home
 sudo git clone https://github.com/Traceur70/dotnet-docker.git
 cd dotnet-docker/1.0.0-preview2/debian
