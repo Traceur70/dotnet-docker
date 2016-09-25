@@ -16,3 +16,5 @@ git clone https://github.com/Traceur70/UL.CrossApp.git
 cd UL.CrossApp/UL.CrossApp.Web3/
 dotnet restore
 dotnet run &
+
+#End of script
