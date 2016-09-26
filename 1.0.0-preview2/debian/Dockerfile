@@ -48,4 +48,4 @@ RUN apt-get install npm -y --no-install-recommends
 RUN apt-get install node -y --no-install-recommends
 RUN npm install -g bower
 
-EXPOSE 8080
+EXPOSE 5000
