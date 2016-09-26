@@ -1,6 +1,11 @@
 #First connect to remote docker's machine 
 ssh norman@containers03.cloudapp.net
 
+#Instal docker-machine
+su
+curl -L https://github.com/docker/machine/releases/download/v0.7.0/docker-machine-`uname -s`-`uname -m` > /usr/local/bin/docker-machine && \
+chmod +x /usr/local/bin/docker-machine
+
 sudo git clone https://github.com/Traceur70/dotnet-docker.git /home/dotnet-docker
 
 #Build & run a Debian server with .NET Core
