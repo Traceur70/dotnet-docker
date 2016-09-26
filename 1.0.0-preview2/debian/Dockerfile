@@ -46,3 +46,5 @@ RUN apt-get update
 RUN apt-get install npm #TODO assume yes
 RUN apt-get install node #TODO assume yes
 RUN npm install -g bower
+
+EXPOSE 8080
