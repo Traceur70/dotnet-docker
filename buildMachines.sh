@@ -9,7 +9,7 @@ sudo docker run -dit -p 81:8181 --name sysWithDotnet ul/dotnet
 
 #Build & run an Ubuntu server without .NET Core
 sudo docker build -t ul/nodotnet /home/dotnet-docker/1.0.0-preview2/ubuntuNoDotnet
-sudo docker run -dit -p 82:8282 --name sysWithoutDotnet ul/nodotnet
+sudo docker run -dit -p 82:8181 --name sysWithoutDotnet ul/nodotnet
 
 #To run on sysWithDotnet
 sudo docker attach sysWithDotnet
