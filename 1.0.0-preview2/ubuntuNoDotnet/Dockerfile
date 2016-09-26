@@ -1,4 +1,4 @@
 FROM ubuntu:latest
 RUN apt-get update
-RUN apt-get sudo
+RUN apt-get install sudo
 EXPOSE 8080
