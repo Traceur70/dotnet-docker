@@ -43,6 +43,7 @@ RUN mkdir warmup \
     
 # Package to get specific deployement for a plateforme (see https://docs.microsoft.com/fr-fr/dotnet/articles/core/rid-catalog)
 RUN apt-get update
+RUN apt-get sudo
 RUN apt-get install npm -y --no-install-recommends
 RUN apt-get install node -y --no-install-recommends
 RUN npm install -g bower
